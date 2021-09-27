@@ -8,7 +8,7 @@ Esse é só o front-end da página de registro, ainda tem algumas coisas para ad
 
 ## Resumo:
 
-- Sistema de registro de usuários. Com finalidades de exercitar meus conhecimentos e estudos em HTML e CSS. Como ainda está em devolvimento, o design ficou básico e minimalista, com algumas informações necessárias. Caso deseja conhecer o site <a href"https://arthuralbuquerquem.github.io/register-page/">clique aqui<a/>
+- Sistema de registro de usuários. Com finalidades de exercitar meus conhecimentos e estudos em HTML e CSS. Como ainda está em devolvimento, o design ficou básico e minimalista, com algumas informações necessárias. Caso deseja conhecer o site <a href"https://arthuralbuquerquem.github.io/register-page/">clique aqui</a>
 
 ### Tecnologias Usadas:
 
