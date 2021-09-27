@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #7d3ae9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.outtext {
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+    -webkit-filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.7));
+}
+
+.subtext {
+    font-family: 'Dosis';
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+    -webkit-filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.7));
+}
+
+.base {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 770px;
+    background-color: #1e252e;
+    -webkit-filter: drop-shadow(5px 5px 0px rgba(0,0,0,0.7));
+}
+
+.formtitle {
+    display: flex;
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border: 0px;
+    background-color: #525278;
+    color: #fff;
+}
+
+input:hover {
+    border: 2px solid #39d293;
+}
+
+.text-dec {
+    color: #fff;
+}
+
+::placeholder {
+    opacity: 0.5;
+    color: #fff;
+}
+
+select {
+    display: flex;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: #FFF;
+    opacity: 0.5;
+    border: 0px;
+    background-color: #8484d0;
+}
+
+.latertext {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#checkboxterm {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+}
+
+.terms {
+    color: #fff;
+}
+
+.terms a {
+    text-decoration: none;
+    color: rgb(105, 100, 252);
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+#button {
+    margin-top: 10px;
+    width: 320px;
+    height: 60px;
+    border-radius: 100px;
+    border: 0px;
+    background-color: #39d293;
+    font-family: 'Josefin Sans';
+    color: #fff;
+    font-size: 30px;
+}
+
+#button:hover {
+    background-color: #fff;
+    color: #39d293;
+}
