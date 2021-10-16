@@ -145,13 +145,26 @@ select {
         margin-bottom: 50px;
     }
 
+    .outtext {
+        font-size: 25px;
+    }
+
     .base {
-        width: 400px;
-        height: 670;
+        width: 330px;
+        height: 820px;
+    }
+
+    .form {
+        width: 300px;
+        margin-top: 30px;
     }
 
     .terms {
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    #button {
+        width: 250px;
     }
 
 }
