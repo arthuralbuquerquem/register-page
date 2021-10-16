@@ -105,6 +105,7 @@ select {
     width: 15px;
     height: 15px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .terms {
@@ -130,9 +131,27 @@ select {
     font-family: 'Josefin Sans';
     color: #fff;
     font-size: 30px;
+    cursor: pointer;
 }
 
 #button:hover {
     background-color: #fff;
     color: #39d293;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        margin-bottom: 50px;
+    }
+
+    .base {
+        width: 400px;
+        height: 670;
+    }
+
+    .terms {
+        font-size: 13px;
+    }
+
 }
